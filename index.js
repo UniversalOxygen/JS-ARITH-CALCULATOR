@@ -37,5 +37,6 @@ switch(operation) {
 
     default:
         console.log('Invalid operation');
+	document.write(`${PLEASE REFRESH PAGE}`);
         break;
 }
