@@ -31,11 +31,11 @@ switch(operation) {
 
     case '/':
         result = firstNumber / secondNumber;
+	document.write(`${firstNumber} / ${secondNumber} = ${result}`);
         console.log(`${firstNumber} / ${secondNumber} = ${result}`);
         break;
 
     default:
-        document.write('Invalid operation');
         console.log('Invalid operation');
         break;
 }
