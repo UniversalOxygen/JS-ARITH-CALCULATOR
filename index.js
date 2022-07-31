@@ -31,7 +31,6 @@ switch(operation) {
 
     case '/':
         result = firstNumber / secondNumber;
-        document.write(`${firstNumber} / ${secondNumber} = ${result}`);
         console.log(`${firstNumber} / ${secondNumber} = ${result}`);
         break;
 
